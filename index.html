@@ -4,36 +4,296 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Manual Madrid Open City</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="style/color_palette.css">
+
 	<script src="js/jquery-3.4.1.min.js"></script>
 	<script src="js/script.js"></script>
+
 </head>
 
 <body>
 
-<div class="top_menu">
-	<h1>Madrid Open City</h1>
-</div>
-<div class="left_menu">
-	<ul>
-		<li>Primero</li>
-		<li>segundo
-			<ul>
-				<li>2.1</li>
-				<li>2.1</li>
-				<li>2.1</li>
-			</ul>
-		</li>
+	<!--NO MOVER-->
+	<!--NO MOVER-->
+	<!--NO MOVER-->
+	<div class="contentOverlay" id="contentOverlay"></div>
+	<!--NO MOVER-->
+	<!--NO MOVER-->
+	<!--NO MOVER-->
 
-		<li>Tercero</li>
-	</ul>
+
+<!--TOP MENU-->
+
+<div class="top_menu moc_bg_a_i moc_cl_a_c" id="navbar">
+	<h1 class="top_menu_large">Madrid Open City</h1>
+	<div class="top_menu_medium">
+		<i class="material-icons" id="showMenu">menu</i>
+		<a href="#default" class="logo"><span class="helper"></span><img src="img/moc_isotipo_azul_cielo.png" alt=""></a>
+		<i class="material-icons" id="search">search</i>
+	</div>
+	<div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+
+	<div id="mySearch">
+		<input type="text" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+		<i class="material-icons md-48" id="closeIcon">close</i>
+	</div>
+
+</div>
+
+<!--LEFT MENU-->
+
+<div class="left_menu moc_bg_a_i_plus moc_cl_a_c" id="leftMenu">
+	<div class="leftMenuItem">
+		<h3>Primero</h3>
+
+		<ul class="BrandDropdown">
+			<li><a href="">1.1</a></li>
+			<li><a href="">1.2</a></li>
+			<li><a href="">1.3</a></li>
+		</ul>
+	</div>
+
+	<div class="leftMenuItem">
+		<h3>Primero</h3>
+
+		<ul class="BrandDropdown">
+			<li><a href="">1.1</a></li>
+			<li><a href="">1.2</a></li>
+			<li><a href="">1.3</a></li>
+		</ul>
+	</div>
+
+	<div class="leftMenuItem">
+		<h3>Primero</h3>
+
+		<ul class="BrandDropdown">
+			<li><a href="">1.1</a></li>
+			<li><a href="">1.2</a></li>
+			<li><a href="">1.3</a></li>
+		</ul>
+	</div>
+</div>
+
+<!--MINI MENU-->
+
+<div class="mini_menu">
+	<a href="#"><p>Título mini menu</p></a>
+	<hr>
+	<a href="#Aquí_pon_un_id_para_el_minimenu"><h4>Opción uno</h4></a>
+	<a href="#"><h4>Opción dos</h4></a>
+	<a href="#"><h4>Opción tres</h4></a>
+	<a href="#"><h4>Opción cuatro</h4></a>
+
 </div>
 
 <div class="content">
-	
-	<div class="A"><h1> Contenido</h1></div>
+
+
+
+
+
+<!--A PARTIR DE AQUÍ SE PONE CONTENIDO-->
+
+
+
+
+	<!--Carousel de Bootstrap-->
+
+	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/test_images_medium.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/test_images_medium.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/test_images_medium.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+	<!--Acordeon de Bootstrap-->
+
+<div class="accordion" id="accordionExample">
+<div class="card">
+	<div class="card-header" id="headingOne">
+		<h2 class="mb-0">
+			<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+				Collapsible Group Item #1
+			</button>
+		</h2>
+	</div>
+
+	<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+		<div class="card-body">
+			Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+		</div>
+	</div>
+</div>
+<div class="card">
+	<div class="card-header" id="headingTwo">
+		<h2 class="mb-0">
+			<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+				Collapsible Group Item #2
+			</button>
+		</h2>
+	</div>
+	<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+		<div class="card-body">
+			Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+		</div>
+	</div>
+</div>
+<div class="card">
+	<div class="card-header" id="headingThree">
+		<h2 class="mb-0">
+			<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+				Collapsible Group Item #3
+			</button>
+		</h2>
+	</div>
+	<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+		<div class="card-body">
+			Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+		</div>
+	</div>
+</div>
+</div>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Opciones y texto -->
+
+<div class="row">
+  <div class="col-3">
+    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
+      <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
+      <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
+      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+    </div>
+  </div>
+  <div class="col-9">
+    <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">Lorem ipsum dolor sit amet consectetur adipiscing elit lacus cubilia auctor taciti purus, aptent cursus lectus facilisis molestie facilisi ultricies mus urna vulputate accumsan.</div>
+      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">Lorem ipsum dolor sit amet consectetur adipiscing elit lacus cubilia auctor taciti purus, aptent cursus lectus facilisis molestie facilisi ultricies mus urna vulputate accumsan.</div>
+      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">Lorem ipsum dolor sit amet consectetur adipiscing elit lacus cubilia auctor taciti purus, aptent cursus lectus facilisis molestie facilisi ultricies mus urna vulputate accumsan.</div>
+      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">Lorem ipsum dolor sit amet consectetur adipiscing elit lacus cubilia auctor taciti purus, aptent cursus lectus facilisis molestie facilisi ultricies mus urna vulputate accumsan.</div>
+    </div>
+  </div>
+</div>
+
+<!-- Popover -->
+
+<button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+
+<br>
+
+<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+  Popover on top
+</button>
+
+<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+  Popover on right
+</button>
+
+<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus
+sagittis lacus vel augue laoreet rutrum faucibus.">
+  Popover on bottom
+</button>
+
+<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+  Popover on left
+</button>
+
+<!-- Tooltip -->
+
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+  Tooltip on top
+</button>
+
+
+<!-- Imagenes -->
+
+	<img src="img/test_images_medium.png" alt="">
+
+<!-- Galerias -->
+
+	<div class="gallery_two_img">
+		<img src="img/test_images_small.png" alt="">
+		<img src="img/test_images_small.png" alt="">
+	</div>
+
+	<div class="gallery_three_img">
+		<img src="img/test_images_small.png" alt="">
+		<img src="img/test_images_small.png" alt="">
+		<img src="img/test_images_small.png" alt="">
+	</div>
+
+<!-- Texto -->
+
+	<h1 id="Aquí_pon_un_id_para_el_minimenu">Título</h1>
+	<h2>Subtítulo</h2>
+	<h3>Negrita texto</h3>
+
+	<hr>
+
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit lacus cubilia auctor taciti purus, aptent cursus lectus facilisis molestie facilisi ultricies mus urna vulputate accumsan. Id montes ante leo sollicitudin pharetra congue, interdum felis justo cras integer, quis quisque faucibus mauris aliquam. Porta sem magna ad ut quam hac eleifend, senectus sagittis nec vulputate cubilia cum, integer turpis purus gravida a diam.</p>
+
+	<h4> subtitulos<h4>
+
+
 
 </div>
+
+
+
+
+<!-- COSAS DE BOOTSTRAP -->
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </body>
 </html>

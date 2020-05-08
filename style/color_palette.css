@@ -1,0 +1,117 @@
+/*COLOR PALETTE MADRID OPEN CITY*/
+
+/*background*/
+
+
+  /*Azul internacional*/
+
+.moc_bg_a_i {
+  background: #011D2C;
+}
+
+.moc_bg_a_i_plus {
+  background: #0D3A4E;
+}
+
+.moc_bg_a_i_minus{
+  background: #011721;
+}
+
+.moc_bg_a_i_minus_x2 {
+  background: #000405;
+}
+
+  /*Azul cielo*/
+
+.moc_bg_a_c {
+  background: #BAFCFE;
+}
+
+.moc_bg_a_c_plus {
+  background: #D8FFFF;
+}
+
+.moc_bg_a_c_minus {
+  background: #B0EDEC;
+}
+
+.moc_bg_a_c_minus_x2 {
+  background: #99E0DD;
+}
+
+
+  /*Magenta futuro*/
+
+  .moc_bg_m_f {
+    background: #FC4063;
+  }
+
+  .moc_bg_m_f_plus {
+    background: #FC5C80;
+  }
+
+  .moc_bg_m_f_minus {
+    background: #EA3D63;
+  }
+
+  .moc_bg_m_f_minus_x2 {
+    background: #DB3460;
+  }
+
+/*Color*/
+
+
+    /*Azul internacional*/
+
+  .moc_cl_a_i {
+    color: #011D2C;
+  }
+
+  .moc_cl_a_i_plus {
+    color: #0D3A4E;
+  }
+
+  .moc_cl_a_i_minus {
+    color: #011721;
+  }
+
+  .moc_cl_a_i_minus_x2 {
+    color: #000405;
+  }
+
+    /*Azul cielo*/
+
+  .moc_cl_a_c {
+    color: #BAFCFE;
+  }
+
+  .moc_cl_a_c_plus {
+    color: #D8FFFF;
+  }
+
+  .moc_cl_a_c_minus {
+    color: #B0EDEC;
+  }
+
+  .moc_cl_a_c_minus_x2 {
+    color: #99E0DD;
+  }
+
+
+    /*Magenta futuro*/
+
+  .moc_cl_m_f {
+    color: #FC4063;
+  }
+
+  .moc_cl_m_f_plus {
+    color: #FC5C80;
+  }
+
+  .moc_cl_m_f_minus {
+    color: #EA3D63;
+  }
+
+  .moc_cl_m_f_minus_x2 {
+    color: #DB3460;
+  }
