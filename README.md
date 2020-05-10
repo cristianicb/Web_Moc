@@ -1,5 +1,10 @@
 # Web_Moc
 
+## Preview mala pero rápida de la página
+(tiene errores en el link con el css y js)
+
+https://htmlpreview.github.io/?https://github.com/cristianicb/Web_Moc/blob/master/index.html#
+
 ## Características
 
 [x] Bootstrap Components
