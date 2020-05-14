@@ -207,6 +207,10 @@ li:hover {
     z-index: 2;
 }
 
+.mini_menu a:hover {
+    color: rgb(48, 124, 156);
+}
+
 
 /*BOOTSTRAP*/
 
@@ -261,7 +265,7 @@ li:hover {
 
 .gallery_two_img {
     width: 100%;
-    height: auto;
+    max-height: 400px;
     display: inline-flex;
     justify-content: space-between;
 }
@@ -273,7 +277,7 @@ li:hover {
 
 .gallery_three_img {
     width: 100%;
-    height: auto;
+    max-height: 200px;
     display: inline-flex;
     justify-content: space-between;
 }

@@ -1,5 +1,4 @@
-let menu = [
-    {
+let menu = [{
         label: 'Introducción',
         href: 'index.html',
         icon: '',
@@ -8,8 +7,7 @@ let menu = [
         label: '¿Qué es moc?',
         href: '#',
         icon: '',
-        children: [
-            {
+        children: [{
                 label: 'Definición',
                 href: '#'
             },
@@ -34,8 +32,7 @@ let menu = [
         label: 'Definición de la Marca',
         href: '#',
         icon: 'twitter',
-        children: [
-            {
+        children: [{
                 label: 'Elementos',
                 href: '#'
             },
@@ -56,8 +53,7 @@ let menu = [
         label: 'Identidad Visual',
         href: '#',
         icon: 'check',
-        children: [
-            {
+        children: [{
                 label: 'Tipografía',
                 href: '#'
             },
@@ -87,8 +83,7 @@ let menu = [
         label: 'Aplicaciones',
         href: '#',
         icon: 'check',
-        children: [
-            {
+        children: [{
                 label: 'Impresas',
                 href: '#'
             },
@@ -155,15 +150,13 @@ for (let i = 0; i < menu.length; i++) {
 
     if (currentMenuItem.children.length == 0) {
         let menuHTML = `
-        <div class="leftMenuItem">
-            <h3><a href="${currentMenuItem.href}">${currentMenuItem.label}</a></h3>
+            <div class="leftMenuItem">
+             <h3><a href="${currentMenuItem.href}">${currentMenuItem.label}</a></h3>
             </div>
         `;
         dynamicMenu.innerHTML += menuHTML;
 
-    }
-
-    else{
+    } else {
         let menuHTML = `
         <div class="leftMenuItem">
              <h3>${currentMenuItem.label}</h3>
@@ -172,11 +165,9 @@ for (let i = 0; i < menu.length; i++) {
                 </ul>
             </div>
     `;
-    dynamicMenu.innerHTML += menuHTML;
+        dynamicMenu.innerHTML += menuHTML;
 
     }
-    
-    
+
+
 }
-
-
