@@ -63,7 +63,7 @@ let menu = [{
             },
             {
                 label: 'Retícula',
-                href: '#'
+                href: 'reticulas.html'
             },
             {
                 label: 'Estilo Fotográfico',

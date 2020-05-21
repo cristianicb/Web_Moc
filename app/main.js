@@ -6,11 +6,34 @@ $(document).ready(function() {
 
     $("#search").click(function() {
         $("#mySearch").css("top", "0")
+
+        if ($(".left_menu").hasClass("active")) {
+
+        } else {
+            $(".left_menu").toggleClass("active");
+            $(".contentOverlay").toggle();
+            $("div.content").toggleClass("blocked")
+        }
+
     })
 
+    $("#inputSearch").focus(function() {
+        if ($(".BrandDropdown").hasClass("show")) {} else { $(".BrandDropdown").toggleClass("show", "hide") }
+    });
+
     $("#closeIcon").click(function() {
+
+
+        $(".left_menu").toggleClass("active");
+        $(".contentOverlay").toggle();
+        $("div.content").toggleClass("blocked")
+
         $("#mySearch").css("top", "-95px")
     })
+
+    // Search show left menu
+
+
 
     // Dropdown Menu
 
@@ -23,6 +46,7 @@ $(document).ready(function() {
     // Show Menu
 
     $("#showMenu").on("click", function() {
+        $("#mySearch").css("top", "0")
         $(".left_menu").toggleClass("active");
 
         $(".contentOverlay").toggle();
@@ -30,10 +54,14 @@ $(document).ready(function() {
     });
 
     $("#contentOverlay").on("click", function() {
+        $("#mySearch").css("top", "-95px")
         $(".left_menu").toggleClass("active");
 
         $(".contentOverlay").toggle();
         $("div.content").toggleClass("blocked")
+
+        $(".BrandDropdown").toggleClass("show", "hide")
+
     });
 
 
@@ -54,6 +82,29 @@ $(document).ready(function() {
 });
 
 // JAVASCRIPT
+
+// Search filter
+
+// function myFunction() {
+//     // Declare variables
+//     var input, filter, ul, li, a, i, txtValue;
+//     input = document.getElementById('inputSearch');
+//     filter = input.value.toUpperCase();
+//     ul = document.getElementsByClassName("BrandDropdown");
+//     li = ul.getElementsByTagName('li');
+
+
+//     // Loop through all list items, and hide those who don't match the search query
+//     for (i = 0; i < li.length; i++) {
+//         a = li[i].getElementsByTagName("a")[0];
+//         txtValue = a.textContent || a.innerText;
+//         if (txtValue.toUpperCase().indexOf(filter) > -1) {
+//             li[i].style.display = "";
+//         } else {
+//             li[i].style.display = "none";
+//         }
+//     }
+// }
 
 
 // ESTO SEPARA CACHOS DE CODIGO
