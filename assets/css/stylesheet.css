@@ -187,8 +187,12 @@ ul li {
     padding: 10px 0 10px 48px;
 }
 
-li:hover {
+ul li:hover {
     background: rgb(5, 42, 58);
+}
+
+ol li {
+    margin-bottom: 0.5rem;
 }
 
 .contentOverlay {
@@ -427,4 +431,12 @@ hr {
         right: 22px;
         top: 16px;
     }
+}
+
+
+/*BOOTSTRAP THINGS*/
+
+#carouselExampleControls a,
+#carouselExampleIndicators a {
+    display: flex;
 }
