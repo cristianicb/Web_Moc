@@ -27,6 +27,10 @@ a:hover {
     color: #D8FFFF;
 }
 
+.hoverRed a:hover {
+    color: #FC4063;
+}
+
 .helper {
     display: inline-block;
     height: 100%;
