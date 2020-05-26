@@ -19,7 +19,6 @@ a:active,
 a:visited {
     text-decoration: none;
     color: inherit;
-    display: block;
 }
 
 a:hover {
@@ -273,9 +272,16 @@ ol li {
     width: 100%;
 }
 
+.img_width_short {
+    display: block;
+    width: 300px !important;
+    margin: 0 auto;
+}
+
 .content_separator {
     margin-top: 30px;
     margin-bottom: 30px;
+    align-content: center;
 }
 
 .gallery_two_img {
