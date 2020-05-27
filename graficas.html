@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#fafafa" />
+
+    <title>Gráficas</title>
+
+    <meta name="description" content="" />
+    <link rel="apple-touch-icon" href="./assets/img/moc_isotipo_azul_cielo.png" />
+    <link rel="icon" href="./assets/img/moc_isotipo_azul_cielo.png" />
+
+
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/color_palette.css">
+
+
+
+</head>
+
+<body>
+
+    <!--NO MOVER-->
+    <!--NO MOVER-->
+    <!--NO MOVER-->
+    <div class="contentOverlay" id="contentOverlay"></div>
+    <!--NO MOVER-->
+    <!--NO MOVER-->
+    <!--NO MOVER-->
+
+
+
+    <!--TOP MENU-->
+
+    <div class="top_menu moc_bg_a_i moc_cl_a_c" id="navbar">
+        <h1 class="top_menu_large"><a href="index.html">Madrid Open City</a></h1>
+        <div class="top_menu_medium">
+            <i class="material-icons" id="showMenu">menu</i>
+            <a href="index.html" class="logo"><span class="helper"></span><img src="./assets/img/moc_isotipo_azul_cielo.png"
+                    alt="isotipo Madrid Open City"></a>
+
+            <div></div>
+
+        </div>
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+
+        <div id="mySearch">
+            <input id="inputSearch" type="text" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+            <i class="material-icons md-48" id="closeIcon">close</i>
+        </div>
+        <i class="material-icons" id="search">search</i>
+    </div>
+
+    <!--LEFT MENU-->
+
+    <div class="left_menu moc_bg_a_i_plus moc_cl_a_c" id="leftMenu"></div>
+
+    <!--MINI MENU-->
+
+    <div class="mini_menu">
+        <a href="#">
+            <p>Estilo de gráficas</p>
+        </a>
+        <hr>
+        <a href="#general">
+            <h4>Estilo general</h4>
+        </a>
+        <a href="#simples">
+            <h4>Estilos de gráficas sencillas</h4>
+        </a>
+        <a href="#complejas">
+            <h4>Estilos de gráficas complejas</h4>
+        </a>
+
+    </div>
+
+    <div class="content">
+
+
+        <!--A PARTIR DE AQUÍ SE PONE CONTENIDO-->
+
+        <!-- Texto -->
+
+        <h1>Estilo de gráficas</h1>
+        <h2 id="general">Estilo general</h2>
+
+        <hr>
+
+        <p>Algo indispensable para comunicación de cualquier marca y especialmente para una marca enfocada al sector empresarial y económico es la representación visual de datos y las gráficas.</p>
+        <p>La información que se representa en estas gráficas es importante para la marca y para el público, por ello la información ha de aparecer representada de la manera más clara posible.</p>
+        <p>Es necesario por ello que el estilo gráfico sea extremadamente limpio y que se evite toda posible sobrecarga de elementos para que la información se pueda localizar, entender e interpretar lo más rápido y eficazmente que sea posible a la par que la identidad de la marca se mantiene visible y reconocible en todo momento.</p>
+        <p>Para lograr la claridad necesaria y que la marca sea visible, en las gráficas siempre se hará uso de la tipografía corporativa y se emplearán los colores de la paletas de la marca. De esta manera la marca se mantendrá siempre visible y reconocible y la información se verá claramente identificada.</p>
+
+
+        <h2 id="simples">Estilo de gráficas sencillas</h2>
+        <hr>
+
+        <p>En el caso de gráficas con dos variables se empleará para diferenciarlas el Azul Internacional y el Magenta Futuro. Esto con el objetivo de diferenciar claramente ambas variables. Si se tratara de tres variables se hará uso de los tres colores de la paleta primaria.</p>
+
+        <div class="content_separator">
+            <div class="gallery_two_img">
+                <img src="./assets/img/graficas1.png" alt="gráfica lineal" height="100%" width="auto">
+                <img src="./assets/img/graficas3.png" alt="gráfica de tarta" height="100%" width="auto">
+            </div>
+            <h4>Ejemplos de gráficas sencillas</h4>
+        </div>
+
+        <h2 id="complejas">Estilo de gráficas complejas</h2>
+        <p>Si fuera necesario emplear más de tres variables en una sola gráfica se usarán colores de la paleta secundaria. Es importante tener en cuenta que los colores se deben usar para diferenciar claramente la información y las variables en cada gráfica, de modo que se debe tender a usar los colores más diferentes del resto que sea posible para evitar que puedan llegar a confundir.</p>
+        
+        <div class="content_separator">
+            <img src="./assets/img/graficas2.png" alt="gráfica de porcentajes" height="100%" width="auto">
+            <h4>Ejemplo de gráfica compleja</h4>
+        </div>
+
+        
+    </div>
+
+
+
+
+    <!-- COSAS DE BOOTSTRAP -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- JQUERY -->
+
+    <script src="./assets/jquery/jquery-3.4.1.min.js"></script>
+
+    <!-- CODIGO DEL PROYECTO -->
+
+    <script src="./app/menu_datos.js"></script>
+    <script src="./app/main.js"></script>
+
+</body>
+
+</html>
