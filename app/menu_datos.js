@@ -4,12 +4,12 @@ let menu = [{
         icon: '',
         children: []
     }, {
-        label: '¿Qué es moc?',
+        label: 'Estrategia y concepto',
         href: '#',
         icon: '',
         children: [{
                 label: 'Definición',
-                href: '#'
+                href: 'definicion.html'
             },
             {
                 label: 'ADN marca',
@@ -21,7 +21,7 @@ let menu = [{
             },
             {
                 label: 'Drivers',
-                href: '#'
+                href: 'drivers.html'
             },
             {
                 label: 'Narrativa',
@@ -38,7 +38,7 @@ let menu = [{
             },
             {
                 label: 'Composición',
-                href: '#'
+                href: 'composicion.html'
             },
             {
                 label: 'Color',
@@ -46,7 +46,7 @@ let menu = [{
             },
             {
                 label: 'Animación',
-                href: '#'
+                href: 'animacion.html'
             }
         ]
     }, {
@@ -58,7 +58,7 @@ let menu = [{
                 href: '#'
             },
             {
-                label: 'Gama Colores',
+                label: 'Gama de colores',
                 href: '#'
             },
             {
