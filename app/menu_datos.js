@@ -13,7 +13,7 @@ let menu = [{
             },
             {
                 label: 'ADN marca',
-                href: '#'
+                href: 'adn.html'
             },
             {
                 label: 'Estrategia',
@@ -25,7 +25,7 @@ let menu = [{
             },
             {
                 label: 'Narrativa',
-                href: '#'
+                href: 'narrativa.html'
             }
         ]
     }, {
@@ -34,7 +34,7 @@ let menu = [{
         icon: 'twitter',
         children: [{
                 label: 'Elementos',
-                href: '#'
+                href: 'elementos.html'
             },
             {
                 label: 'Composición',
@@ -55,7 +55,7 @@ let menu = [{
         icon: 'check',
         children: [{
                 label: 'Tipografía',
-                href: '#'
+                href: 'tipografia.html'
             },
             {
                 label: 'Gama de colores',
@@ -67,11 +67,11 @@ let menu = [{
             },
             {
                 label: 'Estilo Fotográfico',
-                href: '#'
+                href: 'estilo_foto.html'
             },
             {
                 label: 'Estilo Ilustración',
-                href: '#'
+                href: 'estilo_ilustracion.html'
             },
             {
                 label: 'Estilo Gráficas',
@@ -89,11 +89,11 @@ let menu = [{
             },
             {
                 label: 'Digitales',
-                href: '#'
+                href: 'aplicaciones_digitales.html'
             },
             {
                 label: 'Plantillas',
-                href: '#'
+                href: 'plantillas.html'
             },
             {
                 label: 'Video',
@@ -102,8 +102,8 @@ let menu = [{
         ]
     },
     {
-        label: 'About us',
-        href: '#',
+        label: 'Sobre nosotros',
+        href: 'aboutus.html',
         icon: 'check',
         children: []
     }

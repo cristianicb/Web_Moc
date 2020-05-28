@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#fafafa" />
+
+    <title>Drivers</title>
+
+    <meta name="description" content="" />
+    <link rel="apple-touch-icon" href="./assets/img/moc_isotipo_azul_cielo.png" />
+    <link rel="icon" href="./assets/img/moc_isotipo_azul_cielo.png" />
+
+
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/color_palette.css">
+
+
+
+</head>
+
+<body>
+
+    <!--NO MOVER-->
+    <!--NO MOVER-->
+    <!--NO MOVER-->
+    <div class="contentOverlay" id="contentOverlay"></div>
+    <!--NO MOVER-->
+    <!--NO MOVER-->
+    <!--NO MOVER-->
+
+
+
+    <!--TOP MENU-->
+
+    <div class="top_menu moc_bg_a_i moc_cl_a_c" id="navbar">
+        <h1 class="top_menu_large"><a href="index.html">Madrid Open City</a></h1>
+        <div class="top_menu_medium">
+            <i class="material-icons" id="showMenu">menu</i>
+            <a href="index.html" class="logo"><span class="helper"></span><img src="./assets/img/moc_isotipo_azul_cielo.png"
+                    alt="isotipo Madrid Open City"></a>
+
+            <div></div>
+
+        </div>
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+
+        <div id="mySearch">
+            <input id="inputSearch" type="text" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+            <i class="material-icons md-48" id="closeIcon">close</i>
+        </div>
+        <i class="material-icons" id="search">search</i>
+    </div>
+
+    <!--LEFT MENU-->
+
+    <div class="left_menu moc_bg_a_i_plus moc_cl_a_c" id="leftMenu"></div>
+
+    <!--MINI MENU-->
+
+    <div class="mini_menu">
+        <a href="#drivers_01">
+            <p>Drivers</p>
+        </a>
+        <hr>
+        <a href="#drivers_02">
+            <h4>Estabilidad/Seguridad</h4>
+        </a>
+        <a href="#drivers_03">
+            <h4>Conectividad</h4>
+        </a>
+        <a href="#drivers_04">
+            <h4>Actividad</h4>
+        </a>
+
+    </div>
+
+    <div class="content">
+
+
+        <!--A PARTIR DE AQUÍ SE PONE CONTENIDO-->
+
+        <!-- Texto -->
+
+        <h1 id="drivers_01">Drivers</h1>
+
+        <hr>
+
+        <p>Hemos buscado tres conceptos que agrupan los valores de Madrid Open City:</p>
+
+        <h3 id="drivers_02">Estabilidad/Seguridad</h3>
+        <p>Es muy importante que donde vayas a crear tu negocio te aporte seguridad a tí, a tus empleados y a tu empresa. Por eso Madrid se compromete con ayudar a las nuevas empresas a dar sus pasos aquí. </p>
+        <p>Acciones como Madrid Central hacen que se reduzcan las emisiones de CO2, mejorando la calidad del aire y colaborando con las actividades contra el cambio climático.</p>
+
+        <div class="content_separator">
+            <img src="./assets/img/madrid_drivers_01.png" alt="">
+        </div>
+
+        <h3 id="drivers_03">Conectividad</h3>
+        <p>La comunicación y transporte público de Madrid permiten agilizar la conectividad entre empresas y personas. Poder moverse con libertad por la ciudad permite que se pueda disfrutar mucho más de la misma.</p>
+        <p>Una ciudad europea pero que también ofrece una cercanía única al mundo hispano.</p>
+
+        <div class="content_separator">
+            <img src="./assets/img/madrid_drivers_02.png" alt="">
+        </div>
+
+        <h3 id="drivers_04">Actividad</h3>
+        <p>Una ciudad que apuesta por el futuro y que con festivales y proyectos de investigación busca mejorar tecnológicamente. Madrid no deja de avanzar y se adapta a cualquier proyecto.</p>
+
+        <div class="content_separator">
+            <img src="./assets/img/madrid_drivers_03.png" alt="">
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+
+
+    <!-- COSAS DE BOOTSTRAP -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- JQUERY -->
+
+    <script src="./assets/jquery/jquery-3.4.1.min.js"></script>
+
+    <!-- CODIGO DEL PROYECTO -->
+
+    <script src="./app/menu_datos.js"></script>
+    <script src="./app/main.js"></script>
+
+</body>
+
+</html>
