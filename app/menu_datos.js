@@ -17,7 +17,7 @@ let menu = [{
             },
             {
                 label: 'Estrategia',
-                href: '#'
+                href: 'estrategia.html'
             },
             {
                 label: 'Drivers',
@@ -59,7 +59,7 @@ let menu = [{
             },
             {
                 label: 'Gama de colores',
-                href: '#'
+                href: 'gama_color.html'
             },
             {
                 label: 'Retícula',
@@ -75,7 +75,7 @@ let menu = [{
             },
             {
                 label: 'Estilo Gráficas',
-                href: '#'
+                href: 'graficas.html'
             }
         ]
     },
@@ -85,7 +85,7 @@ let menu = [{
         icon: 'check',
         children: [{
                 label: 'Impresas',
-                href: '#'
+                href: 'aplic_impresas.html'
             },
             {
                 label: 'Digitales',
