@@ -97,7 +97,7 @@ let menu = [{
             },
             {
                 label: 'Video',
-                href: '#'
+                href: 'video.html'
             }
         ]
     },
