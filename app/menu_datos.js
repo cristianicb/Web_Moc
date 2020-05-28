@@ -71,7 +71,7 @@ let menu = [{
             },
             {
                 label: 'Estilo Ilustración',
-                href: '#'
+                href: 'estilo_ilustracion.html'
             },
             {
                 label: 'Estilo Gráficas',
@@ -102,8 +102,8 @@ let menu = [{
         ]
     },
     {
-        label: 'About us',
-        href: '#',
+        label: 'Sobre nosotros',
+        href: 'aboutus.html',
         icon: 'check',
         children: []
     }
